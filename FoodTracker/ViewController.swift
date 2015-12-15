@@ -31,6 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate,
         // Hide the keyboard
         textField.resignFirstResponder()
         return true
+        
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
