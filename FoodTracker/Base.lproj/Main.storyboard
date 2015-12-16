@@ -74,7 +74,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="B0T-sx-Z3o">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="B0T-sx-Z3o">
                                 <rect key="frame" x="20" y="80" width="560" height="418"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9V6-Te-bvC">
@@ -108,7 +108,7 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="B0T-sx-Z3o" secondAttribute="trailing" id="0e1-7z-hfm"/>
                             <constraint firstItem="B0T-sx-Z3o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZZC-23-VEU"/>
-                            <constraint firstItem="B0T-sx-Z3o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="ez4-dj-rhc"/>
+                            <constraint firstItem="B0T-sx-Z3o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ez4-dj-rhc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="CNs-xH-Iqp">
