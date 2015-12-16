@@ -24,6 +24,7 @@ class RatingControl: UIView {
     
     func ratingButtonTapped(button: UIButton) {
         print("Button pressed 👍")
+        
     }
 
 }
